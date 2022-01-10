@@ -18,6 +18,7 @@
 - ⚡ Fun fact **I play video games , participating of many CTF and watch videos  **
 
 ## 🚀 class Languages_And_Tools()
+<b>Note:</b> Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.
 <br/>
 <p align="center">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SM8UTI&layout=compact">
@@ -46,7 +47,6 @@
 </p>
 
   <br/>
-  <b>Note:</b> Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.
 
 
 <br/>
