@@ -7,7 +7,7 @@
 ## 🙋‍♂️ class About_Me()
 </br>
 
-- 🌱 I’m currently learning ` Data Structures and Algorithms,Web Development and Android App Development `
+- 🌱 I’m currently learning ` Data Structures and Algorithms,Web Development`
 
 - 👯 I’m looking to collaborate on **OpenSource Projects**
 
