@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+@media (max-width:650px){
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner .left8x{
+        width: 100%;
+    }
+    .banner .right8x{
+        width: 100%;
+        opacity: 0.8;
+    }
+    .banner .right8x .content{
+        font-size: 1em;
+        opacity: 1;
+    }
+    .banner .right8x .content p{
+        font-size: 1em;
+    }
+
+}

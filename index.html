@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sm8uti</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/navigation.css">
+</head>
+<body>
+    <div class="navigation">
+        <ul>
+            <li><a href="#"><span class="icon"><i class="fa-solid fa-house-chimney"></i></span>
+                <span class="title">Home</span></a>
+            </li>
+            <li><a href="#about"><span class="icon"><i class="fa-solid fa-address-card"></i></span>
+                <span class="title">About<span></a>
+            </li>
+            <li><a href="#"><span class="icon"><i class="fa-solid fa-code"></i></span>
+                <span class="title">Projects</span></a>
+            </li>
+            <li><a href="#"><span class="icon"><i class="fa-solid fa-images"></i></span>
+                <span class="title">Gallery</span></a>
+            </li>
+            <li><a href="#"><span class="icon"><i class="fa-solid fa-paper-plane"></i></span>
+                <span class="title">Contact</span></a>
+            </li>
+        </ul>
+    </div>
+    <div class="toggle stic" onclick="toggleMenu()">
+
+    </div>
+    <div class="banner">
+        <div class="left8x">
+            <div class="container">
+
+            </div>
+        </div>
+        <div class="right8x">
+            <div class="content">
+                <h2>Hey! I'm</h2><h1>Smruti Ranjan Nayak </h1><p>I am a <span style="color: var(--skycolor);letter-spacing: 2px;" class="auto-input"></p></span>
+                <div class="socialmedia">
+                    <li><a href="https://twitter.com/sm8uti"><i class="fa-brands fa-twitter-square"></i></a></li>
+                    <li><a href="https://www.instagram.com/sm8uti/"><i class="fa-brands fa-instagram-square"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/smruti-ranjan-nayak/"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/SM8UTI"><i class="fa-brands fa-github-square"></i></a></li>
+                </div>
+                <div id="section10" class="demo">
+                    <a href="#about"><span></span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/991523486e.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script type="text/javascript">
+        var typed = new Typed(".auto-input",{
+            strings:["Ethical Hacker.","Cyber Security Researcher.","Web Developer.","Photographer."],
+            typeSpeed:100,
+            backSpeed:100,
+            loop:true
+        })
+
+        function toggleMenu(){
+            let navigation = document.querySelector('.navigation');
+            let toggle = document.querySelector('.toggle');
+            navigation.classList.toggle('active');
+            toggle.classList.toggle('active');
+        }
+
+    </script>
+</body>
+</html>
