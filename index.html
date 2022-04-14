@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sm8uti</title>
+    <title>Sm8uti - Home</title>
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/mobile.css">
@@ -13,19 +13,19 @@
 <body>
     <div class="navigation">
         <ul>
-            <li><a href="#"><span class="icon"><i class="fa-solid fa-house-chimney"></i></span>
+            <li><a href="#"><span class="icon" onclick="toggleMenu()"><i class="fa-solid fa-house-chimney"></i></span>
                 <span class="title">Home</span></a>
             </li>
-            <li><a href="#about"><span class="icon"><i class="fa-solid fa-address-card"></i></span>
+            <li><a href="#about"><span class="icon" onclick="toggleMenu()"><i class="fa-solid fa-address-card"></i></span>
                 <span class="title">About<span></a>
             </li>
-            <li><a href="#"><span class="icon"><i class="fa-solid fa-code"></i></span>
+            <li><a href="#"><span class="icon" onclick="toggleMenu()"><i class="fa-solid fa-code"></i></span>
                 <span class="title">Projects</span></a>
             </li>
-            <li><a href="#"><span class="icon"><i class="fa-solid fa-images"></i></span>
+            <li><a href="#"><span class="icon" onclick="toggleMenu()"><i class="fa-solid fa-images"></i></span>
                 <span class="title">Gallery</span></a>
             </li>
-            <li><a href="#"><span class="icon"><i class="fa-solid fa-paper-plane"></i></span>
+            <li><a href="#"><span class="icon" onclick="toggleMenu()"><i class="fa-solid fa-paper-plane"></i></span>
                 <span class="title">Contact</span></a>
             </li>
         </ul>
@@ -54,23 +54,35 @@
             </div>
         </div>
     </div>
+    <section class="about container " id="about">
+        <h2 class="text-heading">ABOUT</h2>
+        <div class="about-content">
+            <div class="about-data">
+                <span>About me</span>
+                <h2>Software Developer<br>Cyber Security & Web Developer</h2>
+                <!-- <a href="#" class="btn">Download CV<i class="fa-solid fa-file-arrow-down"></i></a>
+                 -->
+                 <div class="about-text">
+                    <!-- <div class="cont"></div> -->
+                    <p>Hello! I am Smruti Ranjan Nayak. Ethical Hacker, Web & Software Developer and Photograper</p>
+                    <p>I am a self taught programmer, Cyber Security Reasercher and  CTF Player who is a Passionate contributor towards communities, Open Source, Hackathons and Capture the flag games , Who is Pursuing Knowledge to excel in future endeavor and helping people to enhance there learnings through providing them with practical experience and Knowledge.</p>
+                </div>
+                 <button class="download-button">
+                    <div class="docs"><svg class="css-i6dzq1" stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-width="2" stroke="currentColor" height="20" width="20" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line y2="13" x2="8" y1="13" x1="16"></line><line y2="17" x2="8" y1="17" x1="16"></line><polyline points="10 9 9 9 8 9"></polyline></svg> <a href="#cv" style="text-decoration: none;color:#fff" download="">Download CV</a></div>
+                    <div class="download">
+                      <svg class="css-i6dzq1" stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-width="2" stroke="currentColor" height="24" width="24" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line y2="3" x2="12" y1="15" x1="12"></line></svg>
+                    </div>
+                  </button>
+            </div>
+            <div class="about-text">
+                <div class="cont"></div>
+                <!-- <p>Hello! I am Smruti Ranjan Nayak. Ethical Hacker, Web & Software Developer and Photograper</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio similique voluptas fugit perferendis dolore beatae neque dicta repellat magnam, aperiam, molestiae provident. Ut dicta aut expedita saepe alias? Laudantium ratione voluptas atque expedita velit cum.</p> -->
+            </div>
+        </div>
+    </section>
     <script src="https://kit.fontawesome.com/991523486e.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script type="text/javascript">
-        var typed = new Typed(".auto-input",{
-            strings:["Ethical Hacker.","Cyber Security Researcher.","Web Developer.","Photographer."],
-            typeSpeed:100,
-            backSpeed:100,
-            loop:true
-        })
-
-        function toggleMenu(){
-            let navigation = document.querySelector('.navigation');
-            let toggle = document.querySelector('.toggle');
-            navigation.classList.toggle('active');
-            toggle.classList.toggle('active');
-        }
-
-    </script>
+    <script src="javascript/main.js"></script>
 </body>
 </html>

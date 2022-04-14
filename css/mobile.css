@@ -21,5 +21,12 @@
     .banner .right8x .content p{
         font-size: 1em;
     }
+    .about-content{
+        padding-left: 0px;
+        grid-template-columns: 1fr;
+    }
+    .about-data h2{
+        font-size: 1.5rem;
+    }
 
 }

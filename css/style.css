@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Poppins&family=Raleway:wght@800&family=Teko:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Poppins&family=Raleway:wght@800&family=Teko:wght@700&family=Titillium+Web:wght@900&display=swap');
 
 :root{
     /* color */
@@ -22,6 +21,7 @@ html{
 body{
     background-color: var(--blackcolor);
     color: #fff;
+    font-family: 'Poppins', sans-serif;
 }
 
 .banner{
@@ -51,6 +51,7 @@ body{
     background: url(../media/3.jpg);
     background-size: cover;
     background-position: center;
+    border-radius: 0px 0px 45px 0px;
 
 }
 .banner .right8x{
@@ -208,4 +209,139 @@ body{
     }
 }
 
+/* 
+.under{
+    width: 100%;
+    height: 99vh;
 
+}
+
+.under img{
+    width: 100%;
+    height: 100%;
+} */
+
+
+/* about */
+.about{
+    padding: 25px;
+}
+.text-heading{
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: var(--lightblackcolor);
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 2px;
+}
+
+.about-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
+    padding-left: 70px;
+}
+
+.about-data span{
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--skycolor);
+}
+
+.about-data h2{
+    font-size: 2rem;
+    line-height: 2.6rem;
+    font-weight: 700;
+    margin: 1rem 0;
+
+}
+
+.about-text .cont{
+    margin-bottom: 1rem;
+    width: 100%;
+    height: 500px;
+    background-color: #71b1df;
+    margin-top: 1rem;
+    background: url(../media/1.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+}
+
+.about-text p{
+    font-size: 0.938rem;
+    letter-spacing: 1px;
+    text-align: justify;
+    margin-bottom: 1.5rem;
+}
+.download-button {
+    position: relative;
+    border-width: 0;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 4px;
+    z-index: 1;
+}
+   
+.download-button .docs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    min-height: 40px;
+    padding: 0 10px;
+    border-radius: 4px;
+    z-index: 1;
+    background-color:var(--skycolor);
+    border: solid 1px var(--blackcolor);
+    transition: all .5s cubic-bezier(0.77, 0, 0.175, 1);
+    outline: none;
+    border: none;
+}
+   
+.download-button:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+   
+.download {
+    outline: none;
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+    margin: 0 auto;
+    z-index: -1;
+    border-radius: 4px;
+    transform: translateY(0%);
+    background-color: var(--lightskycolor);
+    border: solid 1px #fff;
+    transition: all .5s cubic-bezier(0.77, 0, 0.175, 1);
+}
+   
+.download-button:hover .download {
+    transform: translateY(100%)
+}
+   
+.download svg polyline,.download svg line {
+    animation: docs 1s infinite;
+}
+   
+@keyframes docs {
+    0% {
+     transform: translateY(0%);
+    }
+   
+    50% {
+     transform: translateY(-15%);
+    }
+   
+    100% {
+     transform: translateY(0%);
+    }
+}
