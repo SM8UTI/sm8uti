@@ -7,7 +7,7 @@
 ## 🙋‍♂️ class About_Me()
 </br>
 
-- 🌱 I’m currently learning ` Data Structures and Algorithms,Web Development`
+- 🌱 I’m currently learning ` Data Structures and Algorithms,Web Development `
 
 - 👯 I’m looking to collaborate on **OpenSource Projects**
 
@@ -58,7 +58,8 @@
 <br/>
 
 ## class Connect_with_me()
-</br>
+</br> 
+
 <p align="center">
 
 <a href = "https://www.linkedin.com/in/smruti-ranjan-nayak/"><img src="https://img.icons8.com/fluent/48/000000/linkedin.png"/></a>
