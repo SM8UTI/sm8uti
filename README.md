@@ -42,7 +42,7 @@
 <p align="left">
     <p align="center">
         <img src="https://github-readme-stats.vercel.app/api?username=SM8UTI&show_icons=true&theme=tokyonight">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=SM8UTI&theme=tokyonight">
+        <img  src="https://github-readme-streak-stats.herokuapp.com/?user=SM8UTI&theme=tokyonight">
     </p>
 </p>
 
@@ -50,6 +50,10 @@
 
 
 <br/>
+
+<p align="center">
+    <img src="https://github-profile-trophy.vercel.app/?username=SM8UTI&theme=alduin&row=1">
+</p>
 <br/>
 
 <img src="https://activity-graph.herokuapp.com/graph?username=SM8UTI&theme=react-dark">
