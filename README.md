@@ -1,6 +1,8 @@
 <a href="#"><img width="100%" src="banner.png"/></a>
 
 
+
+
 <br>
 
 <h1 align="center">Hi, I'm Smruti Ranjan Nayak</h1>
