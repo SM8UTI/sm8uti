@@ -52,8 +52,7 @@
 
 <br>
 
-![@sm8uti's Holopin board](https://holopin.me/sm8uti)
-
+[![An image of @sm8uti's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/sm8uti)](https://holopin.io/@sm8uti)
 <br>
 
 
